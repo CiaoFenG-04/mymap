@@ -202,8 +202,6 @@ export class AuthService {
               localStorage.setItem('userId', res.user_id);
               localStorage.setItem('username', res.username);
               localStorage.setItem('user_email', res.user_email || '');
-              localStorage.setItem('user_phone', res.user_phone || '');
-              localStorage.setItem('user_avatar', res.avatar || '');
 
               this.setUserInfo(res.user_id, res.username);
               this.setAvatarUrl(res.avatar || null);

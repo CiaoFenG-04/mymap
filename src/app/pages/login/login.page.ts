@@ -75,7 +75,7 @@ export class LoginPage {
       },
       error: (error: HttpErrorResponse) => {
         console.error('Đăng nhập thất bại:', error);
-        this.loginError = error.error?.detail || 'Tài khoản hoặc mật khẩu không đúng';
+        this.loginError ='Tài khoản hoặc mật khẩu không đúng';
         alert(this.loginError);
       }
     });

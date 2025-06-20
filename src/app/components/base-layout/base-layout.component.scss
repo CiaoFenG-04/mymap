@@ -64,3 +64,11 @@ ion-toolbar {
 ion-item ion-icon[slot="start"] {
   margin-left: 6px; /* hoặc giá trị bạn muốn, ví dụ 4px, 12px... */
 }
+
+ion-menu[menuId="main-menu"] {
+  --width: 220px;
+}
+
+ion-item ion-icon[slot="start"] {
+  margin-right: 24px !important;  
+}
